@@ -1,0 +1,9 @@
+TEST CASES
+1. Add book with valid data -> Book added.
+2. Add member with valid data -> Member added.
+3. Issue valid available book to valid member -> Success.
+4. Issue same book again -> Rejected: already issued.
+5. Return issued book -> Success.
+6. Return available book -> Rejected.
+7. Invalid IDs -> Rejected without crash.
+8. Non-numeric menu input -> Error message and retry.
